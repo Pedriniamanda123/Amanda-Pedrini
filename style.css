@@ -1,18 +1,9 @@
-.dispositivos__lista {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    margin: 5em 0;
+:root {
+    --cor-de-fundo: #EBECEE;
 }
-.dispositivos {
-    text-align: center;
+body {
+    background-color: var(--cor-de-fundo);
 }
-.dispositivos__titulo {
-    font-size: 48px;
-    color: var(--branco-principal);
+h1 {
+    background-color: white;
 }
-.lista__item {
-    font-size: 32px;
-    color: var(--branco-principal);
-}
-
